@@ -14,17 +14,17 @@ var paragraph = document.getElementById('output');
     var p4 = document.getElementById('p4');
 
     p1.addEventListener('mouseover', function () {
-      paragraph.innerText = 'You hovered over Item 1.';
+      paragraph.innerText = ' Pizze z najlepszej jakości składników - najwyższej klasy pomidory, ciągnący się ser i różne dodatki..';
     });
 
     p2.addEventListener('mouseover', function () {
-      paragraph.innerText = 'You hovered over Item 2.';
+      paragraph.innerText = 'Makarony - aromatyczne sosy, dodatki i przyprawy tworzą cuda w postaci różnorakich dań.';
     });
 
     p3.addEventListener('mouseover', function () {
-      paragraph.innerText = 'You hovered over Item 3.';
+      paragraph.innerText = 'Pieczywo czosnkowe, pieczywo z serem a może warzywa lub sosy? Wszystkie te dobroci posiadamy w swojej ofercie.';
     });
 
     p4.addEventListener('mouseover', function () {
-        paragraph.innerText = 'You hovered over Item 3.';
+        paragraph.innerText = 'Cola czy Pepsi? W ofercie posiadamy szerokiie menu napoi gazowanych, niegazowanych; \n a może wolisz alkochole? To też mamy.';
       });
